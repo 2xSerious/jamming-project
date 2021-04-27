@@ -40,7 +40,7 @@ export const Track = (props) => {
 
   return (
     <div className="Track">
-      <img src={props.track.imageUrl} alt='song image' />
+      <img src={props.track.imageUrl} alt='Cover' />
       <div className="Track-information">
         <h3>{props.track.name}</h3>
         <p>
