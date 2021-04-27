@@ -47,7 +47,7 @@ export const Track = (props) => {
           {props.track.artist} | {props.track.album}{" "}
         </p>
         <audio ref={ref} src={props.track.previewUrl} />
-          <a className='preview' onClick={playing ? pausePreview : playPreview}>{(props.track.previewUrl === null) ? 'No preview available' : 'Preview'}</a>
+          <button className='preview' onClick={playing ? pausePreview : playPreview}>{(props.track.previewUrl === null) ? 'No preview available' : 'Preview'}</button>
         
         
       </div>
