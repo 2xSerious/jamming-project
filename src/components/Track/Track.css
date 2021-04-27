@@ -65,6 +65,8 @@
   border: none;
   cursor: pointer;
   display: inline;
+  text-align: left;
+  
 }
 .preview:hover {
   color: purple;
