@@ -10,17 +10,25 @@
   
   background-color: rgba(255, 255, 255, 0.2);
 }
-.Track img {
+.coverImg {
  position: relative;
-
+ 
  border: 1px solid black;
  opacity: 1;
  transition: opacity 0.3s ease-out;
  
 }
+.playImg {
+  position: absolute;
+  opacity: 0.0;
+  transition: 0.5s;
+}
+.playImg:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 
-
-.Track:hover img {
+.coverImg:hover {
   
   opacity: 0.8;
 }

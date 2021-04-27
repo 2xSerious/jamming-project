@@ -40,8 +40,10 @@ function App() {
 
   return (
     <div>
-  <h1>Ja<span className="highlight">mmm</span>ing<span className='author'>...by Teodor</span></h1>
-  
+      <div className='header'>
+  <h1>Ja<span className="highlight">mmm</span>ing</h1>
+  <p className='author'>...by Teodor Krushkov</p>
+      </div>
   <div className="App">
     <SearchBar
     onSearch={search} />
