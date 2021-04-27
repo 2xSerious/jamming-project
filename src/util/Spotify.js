@@ -1,4 +1,4 @@
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://eloquent-swartz-8a1ada.netlify.app";
 const clientId = "93aa7ccae9dd4c1e8d29c8cbe9d6f2cb";
 
 let accessToken;
